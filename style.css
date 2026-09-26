@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7f6;
+}
+
+.gameContainer {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.gameContainer h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.gameContainer input {
+    width: 300px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.gameContainer .btn-submit{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.gameContainer .btn-giveup{
+    background-color: #ce4848;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.gameContainer .btn-reset{
+    background-color: #5ee85e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.gameContainer .btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.gameContainer .btn-giveup:hover {
+    background-color: #ad4040;
+}
+
+.gameContainer .btn-reset:hover {
+    background-color: #3de33d;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
